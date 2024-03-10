@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg viewBox="0 0 70 70" id="icodi" width="100%" height="100%" 
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+<rect x="0" y="0" width="70" height="70" fill="#fff"/>
+<defs>
+<clipPath id="icodi-5344892">
+<rect width="70" height="70"/>
+</clipPath>
+</defs>
+<g clip-path="url(#icodi-5344892)">
+<rect x="5.0" y="-5.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="55.0" y="-5.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="5.0" y="10" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="55.0" y="10" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="10" y="15.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="50" y="15.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="30" y="5.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="5.0" y="15.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="55.0" y="15.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="10" y="15.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="50" y="15.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="15.0" y="25.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="45.0" y="25.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="30" y="25.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="30" y="30" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="5.0" y="45.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="55.0" y="45.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="30" y="45.0" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="20" y="50" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+<rect x="40" y="50" width="10" height="10" fill="#9bf11f" style="stroke:#9bf11f; stroke-width:4.0"/>
+</g>
+
+</svg>
