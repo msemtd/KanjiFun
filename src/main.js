@@ -1,4 +1,4 @@
-const { app, BrowserWindow, Menu } = require('electron')
+const { app, BrowserWindow, Menu, protocol, net } = require('electron')
 const path = require('path')
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -6,6 +6,13 @@ if (require('electron-squirrel-startup')) {
   app.quit()
 }
 Menu.setApplicationMenu(null)
+protocol.registerSchemesAsPrivileged([
+  { scheme: 'kvg', privileges: { bypassCSP: true } }
+])
+app.whenReady().then(() => {
+  protocol.handle('kvg', (request) =>
+    net.fetch('file://' + request.url.slice('kvg://'.length)))
+})
 
 const createWindow = () => {
   // Create the browser window.

@@ -92,5 +92,4 @@ typings/
 out/
 
 # bundled but not in our repo...
-static/kanji/
-static/kvg-index.json
+kvg/
