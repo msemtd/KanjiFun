@@ -1,6 +1,14 @@
 const { FusesPlugin } = require('@electron-forge/plugin-fuses');
 const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 
+const devContentSecurityPolicy = `
+
+default-src 'self' 'unsafe-inline' data:
+script-src 'self' 'unsafe-eval' 'unsafe-inline' data:
+img-src 'self' kvg: file:
+connect-src 'self' kvg: file:
+`.split('\n').filter(l => l.length).join('; ')
+
 module.exports = {
   packagerConfig: {
     icon: 'KanjiFun',
@@ -33,6 +41,7 @@ module.exports = {
     {
       name: '@electron-forge/plugin-webpack',
       config: {
+        devContentSecurityPolicy,
         mainConfig: './webpack.main.config.js',
         renderer: {
           config: './webpack.renderer.config.js',
